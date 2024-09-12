@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Regular,sans-serif;
+}
+.header{
+        display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    flex: 1;
+    margin-left: 145px;
+}
+.noi_bat {
+    margin-top: 25px;
+    flex: 2;
+    display: flex;
+}
+.tim_kiem{
+    margin-top: 25px;
+    flex: 1;
+    margin-left: 180x;
+}
+.noi_bat >ul>li>a{
+    display: flex;
+}
+
+.noi_bat .tieu_de >li>a{
+    display: flex;
+}
+.tieu_de_tc{
+    display: flex;
+    height: 45px;
+    background-color: chartreuse;
+}
+.tieu_de_tc .cac_muc{
+    display: flex;
+    font-size: 13px;
+}
+.tieu_de_tc .menu{
+    display: flex;
+    margin-left: 150px;
+    background-color: chartreuse
+}
+.tieu_de_tc .cac_muc >ul{
+    display: flex;
+}
+.cac_muc >ul >li{
+    padding-left: 13px;
+    padding-top: 15px;
+}
+
+/* .cac_muc >li:hover .chi_muc_TT{
+    visibility: visible;
+} */
+/* .chi_muc_TT{
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    border-top: 3px  chartreuse;
+    visibility: hidden;
+} */
+.tieu_diem{
+    display: flex;
+    flex-direction: column;
+}
+.tieu_diem .gioi_thieu{
+    font-size: 16px; 
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: bold;  
+}
+.tieu_diem .gioi_thieu2{
+    font-size: 14px;
+    width: 450px;
+}
+.tin_chinh{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.tin_nong .a1{
+    color: #A3B43D;
+    font-size: 12px;
+    font-family: Roboto-Regular, sans-serif;
+}
+.tin_nong .a2{
+    font-family: Roboto-Medium;
+    font-size: 15px;
+    display: block; /* Hoặc inline-block */
+    width: 200px; /* Chiều ngang cố định */
+    text-overflow: ellipsis; /* Thêm dấu ... khi nội dung quá dài */
+}
+.tin_nong ul{
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    
+}
+.tin_tuc{
+    display: flex;
+}
+.tin_nong{
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+.noi_bat2>ul>li{
+    display: flex;
+    flex-direction: column;
+}
+
+.noi_bat2>ul>li>a>img{
+    width: 150px;
+    height: 97px;
+}
+.noi_bat2>ul>li .a1{
+    font-size: 14px;
+    width: 150px;
+}
+
+.noi_bat2>ul{
+    display: flex;
+    margin-top: 10px;
+}
+.noi_bat2 ul li{
+    margin-right: 15px;
+}
+.quang_cao{
+    margin-top: 25px;
+}
+
+
+
